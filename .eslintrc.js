@@ -18,6 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    'prefer-arrow-callback': [error, { allowNamedFunctions: true }],
     indent: 'off',
     'react/jsx-indent': 'off',
     'react/jsx-indent-props': 'off',
